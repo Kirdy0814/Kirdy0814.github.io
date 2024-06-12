@@ -1,0 +1,128 @@
+
+/*title*/
+
+h1 {
+  color: #4dffff;
+  font-size: 60px;
+}
+
+h2 {
+  color: #4dbbff;
+  font-size: 48px;
+  left: 650px;
+}
+
+/*text*/
+p,
+li {
+  color: #6BDCF2;
+  font-size: 24px;
+}
+
+/*link*/
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*images*/
+
+html {
+	background-color: #062A4B;
+  	background-repeat: no-repeat;
+  	background-position: top center;
+}
+
+
+.box_icon{
+	background-color: #062A4B;
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	padding: 10px;
+	top: 300px;
+	left: 45px;
+	border-radius: 75px;
+	}
+
+.center{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.box_infro{
+	width: 600px;
+	height: 160px;
+	position: absolute;
+	top: 400px;
+	left: 55px;
+	}
+
+.box_support{
+	width: 250px;
+	height: 60px;
+	position: fixed;
+	top: 600px;
+	}
+
+.box_community{
+	background-color: #104A81;
+	width: 450px;
+	height: 800px;
+	top: 300px;
+	position: relative;
+	border-radius: 25px;
+	border: 1.5px solid #396FA2;
+}
+
+.box_banner{
+	background-image: url(images/banner.png);
+	background-size: cover;
+	width: 1500px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: left top, right bottom, center center;
+}
+
+
+
+/* Style buttons */
+.btn {
+	width:250px;
+	height:60px; 
+  	background-color: white; /* Blue background */
+  	border: none; /* Remove borders */
+  	color: #225484; /* White text */
+  	border-radius: 60px;
+  	padding: 10px;
+  	margin: 10px;
+  	font-size: 24px; /* Set a font size */
+  	cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: lightBlue;
+}
+
+.button_icon{
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/*community block*/
+
+iframe:focus {
+  outline: none;
+}
+iframe[seamless] {
+  display: block;
+}
